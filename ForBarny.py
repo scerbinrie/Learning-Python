@@ -5,8 +5,8 @@ print "Please input the temperature."
 # Input is provided by the user in degree celsius
 
 # take input from the user
-celsius = float(input('Enter degree: '))
-Fahrenheit = float(input('Enter degree: '))
+celsius = float(raw_input('Enter degree: '))
+Fahrenheit = float(raw_input('Enter degree: '))
 
 Celsius = (Fahrenheit - 32) * 5.0/9.0
 
