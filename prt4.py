@@ -11,6 +11,7 @@ print "Good."
 print "Ok, first question is the number greater than or equal or less than 50"
 
 #should i be doing "from random import randint"
+#and is this how you wanted it to work or should I be coupling it a different way
 
 while choice != 'c':
     print "Is your secret number " + str(guess) + "?"
